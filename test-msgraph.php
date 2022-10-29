@@ -56,13 +56,11 @@ foreach ($events as $item) {
 						$start = ($item->getStart()->getDateTime());
 						$end = ($item->getend()->getdatetime());
 						$author = $item->getOrganizer()->getEmailaddress()->getname();
-						$author = str_replace($suchen, $ersetzen, $author);
 						$subject = $item->getSubject();
-						//$subject = str_replace($suchen, $ersetzen, $subject);
-						echo $subject."\n";
-						echo $author."\n";
 						
-}						echo $start."-->".$end;
-    
+						echo $subject."\n";
+						echo $author."\n";					
+						echo $start."-->".$end;
+}    
 
 ?>
