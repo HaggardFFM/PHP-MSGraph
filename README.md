@@ -7,7 +7,6 @@ The only solution which will be used for an application access is Microsoft Grap
 
 * Composer
 * PHP 8.1 or greater
-* cURL 
 * MS Graph (inculded in Microsoft O365, M365, Developer Account)
 
 **Note: Not all operations or request elements are supported on all versions of
