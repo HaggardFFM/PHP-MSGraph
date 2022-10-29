@@ -1,13 +1,13 @@
 # PHP-MSGraph
 
 After the shutdown of Basic Authentication for EWS, I searched for a new solution to communicate with the exchange server hosted by Microsoft (Exchange Online). 
-The only solution which will be used for an application access is Microsoft Graph. 
+The only solution which will be usable for an application access would be Microsoft Graph. 
 
 ## Dependencies
 
 * Composer
 * PHP 8.1 or greater
-* MS Graph (inculded in Microsoft O365, M365, Developer Account)
+* MS Graph (included in Microsoft O365, M365, Developer Account)
 
 **Note: Not all operations or request elements are supported on all versions of
 Exchange.**
